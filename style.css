@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: B Nazanin;
+    color: #fff;
+}
+h1{
+    font-size: 24px;
+    font-family: B Nazanin;
+    font-weight: 900;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+.box{
+    width: 350px;
+    height: 460px;
+    font-size: 16px;
+    padding: 40px 40px;
+    background: #04474c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+.user{
+    margin-top: 50px;
+}
+.fas{
+    position: relative;
+}
+input{
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 0px 30px 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #146a75;
+    outline:none;
+    background-color: #04474c;
+    color: #fff
+}
+input:focus{
+    border-bottom: 1px solid #eee;
+}
+#password{
+    color: #ff7f50;
+   margin-top: 0;
+    font-size: 16px;
+}
+.login-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    display: block;
+    width: 80%;
+    pad: 15px;
+    background-color: #eee;
+    color: #04474c;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 40px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+.btn:hover{
+    opacity: 1;
+}
+.signup span{
+    color: #39dfc3;
+}
+.signup span:hover{
+    color: #31cea6;
+}
